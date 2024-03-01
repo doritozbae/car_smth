@@ -1,0 +1,46 @@
+.card-container {
+  background-color: transparent;
+  max-width: 333px;
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.img {
+  width: 252px;
+  height: 252px;
+  background-color: #a7caff;
+  object-fit: cover;
+}
+
+.main-description {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.more-btn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 100;
+}
+
+.more {
+  cursor: pointer;
+}
+
+.card-title {
+  margin-right: 10px;
+}
+
+.category {
+  font-size: 14px;
+  color: rgb(126, 119, 119);
+  display: flex;
+  flex-flow: row;
+  gap: 3px;
+}

@@ -1,0 +1,26 @@
+.options-container {
+  position: absolute;
+  z-index: 100;
+  width: 215px;
+  background-color: #fff;
+  top: 20px;
+  left: 0px;
+  padding: 10px;
+}
+
+.option-item {
+  display: flex;
+  flex-flow: row;
+  cursor: pointer;
+  padding: 6px 10px;
+  gap: 10px;
+}
+
+.option-item:hover {
+  background-color: rgb(241, 215, 178);
+}
+
+.option-icon {
+  width: 22px;
+  height: 22px;
+}
