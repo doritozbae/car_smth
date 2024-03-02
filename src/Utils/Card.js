@@ -38,16 +38,16 @@ const Card = ({
       </div>
       <div>
         <div className="main-description">
-          <h2 className="card-title">{val.title}</h2>
-          <h2>{val.price}$</h2>
+          <p className="card-title">{val.title}</p>
+          <p>{val.price}$</p>
         </div>
         <p>{val.description}</p>
 
         <div className="category">
           {val.catagory.map((c, index) => (
-            <h4 key={index}>
-              <span> / </span> {c.catagory}
-            </h4>
+            <p key={index}>
+              {c.catagory} <span> | </span>
+            </p>
           ))}
         </div>
       </div>

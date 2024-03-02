@@ -46,7 +46,7 @@ const ShowCars = ({
             </div>
             <div onClick={() => navigate("/addCar")} className=" add-button">
               <RxPlus className="add-icon" />
-              <p>Add new car</p>
+              <p>Add a new car</p>
             </div>
           </div>
 

@@ -14,7 +14,7 @@ const CarDetails = () => {
       <TopNav title={"Car Details"} />
 
       <div className="form-container">
-        <div>
+        <div className="img-container">
           <img className="img" src={details.img} alt="car" />
         </div>
         <div className="line">

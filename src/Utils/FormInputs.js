@@ -80,7 +80,7 @@ const FormInputs = ({
 
     if (description.length > 25) {
       setDescriptionCountError(
-        "Description should be less than or equal to 200 characters"
+        "Description should be less than or equal to 25 characters"
       );
     } else {
       setDescriptionCountError("");
@@ -251,13 +251,13 @@ const FormInputs = ({
             className="input-style"
             placeholder="Enter img URL"
           ></input>
-        </div>
 
-        {message && (
-          <p style={isValid ? { color: "#446A46" } : { color: "#990000" }}>
-            {message}
-          </p>
-        )}
+          {message && (
+            <p className={isValid ? { color: "#446A46" } : "error-font"}>
+              {message}
+            </p>
+          )}
+        </div>
 
         <div ref={catagoryRef}>
           <label>Category</label>
@@ -318,21 +318,21 @@ const FormInputs = ({
       {emptyInputError && (
         <div className=" alert">
           <IoIosCloseCircle className=" wrong-icon" />
-          <h2>Please enter car name</h2>
+          <p>Please enter car name</p>
         </div>
       )}
 
       {emptyPriceError && (
         <div className=" alert">
           <IoIosCloseCircle className="wrong-icon" />
-          <h2>Please enter car price</h2>
+          <p>Please enter car price</p>
         </div>
       )}
 
       {maxSelectedError && (
         <div className=" alert">
           <IoIosCloseCircle className=" wrong-icon" />
-          <h2>You cannot add more than 3 catagories</h2>
+          <p>You cannot add more than 3 catagories</p>
         </div>
       )}
     </div>

@@ -2,7 +2,7 @@
   background-color: #ffffff;
   max-width: 660px;
   margin: 0 auto;
-  padding: 80px 40px;
+  padding: 60px 40px;
 }
 
 .input-style {
@@ -19,7 +19,7 @@
 .category-input {
   position: relative;
   padding: 10px;
-  height: 25px;
+  height: 50px;
 }
 
 .input-container {
@@ -128,4 +128,11 @@
   display: flex;
   flex-flow: row;
   gap: 5px;
+}
+
+.img-container img {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

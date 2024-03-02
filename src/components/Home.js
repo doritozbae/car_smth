@@ -45,21 +45,21 @@ const Home = () => {
           {addNotification && (
             <div className="alert">
               <FaCheck className="check-icon" />
-              <h2>Added a car - {addNotificationTitle}</h2>
+              <p>Added a car - {addNotificationTitle}</p>
             </div>
           )}
 
           {editNotification && (
             <div className="alert">
               <FaCheck className=" check-icon" />
-              <h2>Car {editNotificationTitle} updated</h2>
+              <p>Car {editNotificationTitle} updated</p>
             </div>
           )}
 
           {deleteNotification && (
             <div className="alert">
               <FaCheck className=" check-icon" />
-              <h2>Deleted Car - {deleteNotificationTitle}</h2>
+              <p>Deleted Car - {deleteNotificationTitle}</p>
             </div>
           )}
         </div>

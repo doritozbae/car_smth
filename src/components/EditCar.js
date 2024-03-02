@@ -205,7 +205,7 @@ const EditCar = () => {
 
       <div className="form-container">
         <form>
-          <div>
+          <div className="img-container">
             <img className="img" src={edit.img} alt="car" />
           </div>
           <div className="input-container">
@@ -310,14 +310,14 @@ const EditCar = () => {
         {emptyInputError && (
           <div className=" alert">
             <IoIosCloseCircle className=" wrong-icon" />
-            <h2>Please enter a car name</h2>
+            <p>Please enter a car name</p>
           </div>
         )}
 
         {maxSelectedError && (
           <div className=" alert">
             <IoIosCloseCircle className="wrong-icon"></IoIosCloseCircle>
-            <h2>You cannot add more than 3 categories</h2>
+            <p>You cannot add more than 3 categories</p>
           </div>
         )}
       </div>

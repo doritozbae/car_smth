@@ -42,5 +42,7 @@
   color: rgb(126, 119, 119);
   display: flex;
   flex-flow: row;
+  flex-wrap: wrap;
+  white-space: normal;
   gap: 3px;
 }
