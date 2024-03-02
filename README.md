@@ -29,11 +29,13 @@ All data stores in Local Storage.
 
 3. Cars page
 
-![image](https://github.com/doritozbae/car_smth/assets/87154042/c0766c8d-82e1-4a70-8456-eb40eeecdccc)
+![image](https://github.com/doritozbae/car_smth/assets/87154042/a063fb1f-778e-4d8c-991e-549710625e87)
 
-4. Edit button
 
-![image](https://github.com/doritozbae/car_smth/assets/87154042/5b7f585c-985b-46ef-b130-ea91a9bed530)
+4. Options button
+
+![image](https://github.com/doritozbae/car_smth/assets/87154042/5bc80634-25f3-4417-9e9e-a3595c0f15e1)
+
 
 5. Edit page
     
