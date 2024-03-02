@@ -14,7 +14,8 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in y
 
 ### **Description:**
 This is the app for managing car data. 
-You can add, edit, read and delete info about cars. All data stores in Local Storage. 
+You can add, edit, read and delete info about cars. After addind cars you can also use searchbar which is working with name and description of the car. 
+All data stores in Local Storage. 
 
 ### **Application preview:**
 
@@ -22,7 +23,7 @@ You can add, edit, read and delete info about cars. All data stores in Local Sto
    
 ![image](https://github.com/doritozbae/car_smth/assets/87154042/d2429ef1-bf85-4551-809e-4c4f7eb7167a)
 
-2. New car form parge
+2. New car form page
    
 ![image](https://github.com/doritozbae/car_smth/assets/87154042/4063b1c4-decc-416a-8b8f-ca6a7c26f693)
 
