@@ -12,3 +12,54 @@ export const catagory = [
   { id: 11, catagory: "Бэкенд" },
   { id: 12, catagory: "idk really..." },
 ];
+
+export const cars = [
+  {
+    id: 1,
+    title: "Tesla Model Y",
+    description: "Wow so cool",
+    price: "11111",
+    catagory: [catagory[0], catagory[5]],
+    img: "https://media.ed.edmunds-media.com/tesla/model-y/2024/oem/2024_tesla_model-y_4dr-suv_performance_fq_oem_1_1600.jpg",
+  },
+  {
+    id: 2,
+    title: "Toyota Corolla",
+    description: "a car yes",
+    price: "1234",
+    catagory: [catagory[2]],
+    img: "https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1280.jpg",
+  },
+  {
+    id: 3,
+    title: "Ford F-Series",
+    description: "USA, 2023",
+    price: "998",
+    catagory: [catagory[0], catagory[6]],
+    img: "https://hips.hearstapps.com/hmg-prod/images/all-new-f-150-25-1593112352.jpg",
+  },
+  {
+    id: 4,
+    title: "Лада седан",
+    description: "ну супер лайк",
+    price: "1",
+    catagory: [catagory[8], catagory[9], catagory[10]],
+    img: "https://aif-s3.aif.ru/images/018/628/596cef98add15253756acd6bc84bd57e.jpg",
+  },
+  {
+    id: 5,
+    title: "Chevrolet Corvette",
+    description: "Germany, 2023",
+    price: "2341",
+    catagory: [catagory[2], catagory[4]],
+    img: "https://i.gaw.to/content/photos/36/04/360443_2019_Chevrolet_Corvette.jpg",
+  },
+  {
+    id: 6,
+    title: "Cadillac CT5-V Blackwing",
+    description: "a fast fast fast carrr",
+    price: "6666",
+    catagory: [catagory[4], catagory[6], catagory[11]],
+    img: "https://hips.hearstapps.com/hmg-prod/images/2025-ct5-v-ct5-v-blackwing-driving-65b00eeba728f.jpg?crop=0.561xw:0.632xh;0.341xw,0.185xh&resize=768:*",
+  },
+];

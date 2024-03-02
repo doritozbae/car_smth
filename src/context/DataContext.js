@@ -1,4 +1,5 @@
 import { createContext, useEffect, useState } from "react";
+import { cars } from "../constants/Data";
 
 const DataContext = createContext();
 
@@ -18,6 +19,11 @@ export const DataProvider = ({ children }) => {
 
   useEffect(() => {
     const items = JSON.parse(localStorage.getItem("carItems"));
+
+    if (!items) {
+      localStorage.setItem("carItems", JSON.stringify(cars));
+    }
+
     setData(items || []);
   }, []);
 
